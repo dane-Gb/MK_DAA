@@ -1,0 +1,18 @@
+Algoritma:
+1. Masukan Nilai Alas Dan Tinggi 
+2. Menghitung Nilai
+3. Menampilkan Hasil
+
+pseudocode:
+Procedure HitungLuasSegitiga
+    // Deklarasi variabel untuk alas dan tinggi
+    Alas = 25
+    Tinggi = 30
+
+    // Hitung luas segitiga menggunakan rumus
+    Luas = (1 / 2) * Alas * Tinggi
+
+    // Tampilkan hasil
+    Print "Luas segitiga adalah: " + Luas
+EndProcedure
+
