@@ -1,0 +1,17 @@
+Algoritma:
+Deklarasi Variabel:Tentukan variabel untuk panjang alas dan tinggi.
+Input Data:Masukkan nilai panjang alas dan tinggi.
+Hitung Luas:Gunakan rumus luas jajar genjang.
+Output Hasil:Tampilkan hasil perhitungan luas.
+Pseudocode:
+Procedure HitungLuasJajarGenjang
+    // Deklarasi variabel
+    Panjang = 5
+    Tinggi = 3
+
+    // Hitung luas jajar genjang
+    Luas = Panjang * Tinggi
+
+    // Tampilkan hasil
+    Print "Luas jajar genjang adalah: " + Luas
+EndProcedure
