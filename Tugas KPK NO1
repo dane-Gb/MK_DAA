@@ -1,0 +1,34 @@
+ALgoritma:
+
+Tentukan dua bilangan yang ingin dicari KPK-nya, yaitu 3 dan 4.
+Mencari FPB terlebih dahulu
+Ambil bilangan yang lebih besar (4), lalu bagi dengan bilangan yang lebih kecil (3).
+Ambil sisa pembagian hingga sisanya 0.
+aSisanya terkhir yang tidak nol adalah FPB.
+Ambil bilangan 3 dan 4.
+Hitung FPB-nya:
+4÷3 = 1 
+sisa 1.
+Gunakan rumus KPK:
+KPK(3,4)=3×4/1=12
+KPK(3,4)= 1
+3×4=12
+Jadi, KPK dari 3 dan 4 adalah 12.
+
+pseudocode:
+
+Function CariKPK(a, b):
+    tempA = a
+    tempB = b
+    While b != 0:
+        temp = b
+        b = a % b
+        a = temp
+    FPB = a
+    KPK = (tempA * tempB) / FPB
+    Return KPK
+Main:
+    a = 3
+    b = 4
+    KPK = CariKPK(a, b)
+    Print "KPK dari", a, "dan", b, "adalah", KPK
