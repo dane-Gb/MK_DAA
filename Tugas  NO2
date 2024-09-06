@@ -1,1 +1,37 @@
+Algoritma:
+langkah-langkah untuk menukar posisi Manggis dan Pisang menggunakan Piring 3 yang kosong:
+1. **Pindahkan Manggis dari Piring 1 ke Piring 3**  
+   - Piring 1: Kosong  
+   - Piring 2: Pisang  
+   - Piring 3: Manggis  
+2. **Pindahkan Pisang dari Piring 2 ke Piring 1**  
+   - Piring 1: Pisang  
+   - Piring 2: Kosong  
+   - Piring 3: Manggis  
+3. **Pindahkan Manggis dari Piring 3 ke Piring 2**  
+   - Piring 1: Pisang  
+   - Piring 2: Manggis  
+   - Piring 3: Kosong  
+Dengan cara ini, posisi Manggis dan Pisang sudah tertukar.
 
+pseudocode:
+Procedure TukarPosisi
+    // Deklarasi piring
+    Piring1 = "Manggis"  // Awalnya Manggis di Piring 1
+    Piring2 = "Pisang"   // Pisang di Piring 2
+    Piring3 = "Kosong"   // Piring 3 kosong
+
+    // Langkah 1: Pindahkan Manggis ke Piring 3
+    Piring3 = Piring1    // Piring 3 sekarang berisi Manggis
+    Piring1 = "Kosong"   // Piring 1 kosong
+
+    // Langkah 2: Pindahkan Pisang ke Piring 1
+    Piring1 = Piring2    // Piring 1 sekarang berisi Pisang
+    Piring2 = "Kosong"   // Piring 2 kosong
+
+    // Langkah 3: Pindahkan Manggis dari Piring 3 ke Piring 2
+    Piring2 = Piring3    // Piring 2 sekarang berisi Manggis
+    Piring3 = "Kosong"   // Piring 3 kosong
+
+    // Setelah langkah-langkah di atas, posisi barang sudah tertukar
+EndProcedure
