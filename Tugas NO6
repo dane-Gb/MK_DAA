@@ -1,0 +1,22 @@
+Algoritma:
+Deklarasi Variabel:Tentukan variabel untuk diameter, tinggi, jari-jari, dan volume.
+Input Data:Masukkan nilai diameter dan tinggi. 
+Gunakan rumus volume kerucut.
+Output Hasil:Tampilkan hasil perhitungan volume.
+
+Pseudocode:
+Procedure HitungVolumeKerucut
+    // Deklarasi variabel
+    Diameter = 5
+    Tinggi = 4
+    Pi = 3.14159
+    
+    // Hitung jari-jari
+    JariJari = Diameter / 2
+    
+    // Hitung volume kerucut
+    Volume = (1 / 3) * Pi * (JariJari ^ 2) * Tinggi
+
+    // Tampilkan hasil
+    Print "Volume kerucut adalah: " + Volume
+EndProcedure
