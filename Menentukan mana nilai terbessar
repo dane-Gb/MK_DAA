@@ -1,0 +1,11 @@
+# Mengambil input dari pengguna
+x = int(input("Masukkan bilangan pertama: "))
+y = int(input("Masukkan bilangan kedua: "))
+
+# Menentukan bilangan terbesar dan memberikan output yang sesuai
+if x > y:
+    print(f"Bilangan pertama ({x}) lebih besar daripada bilangan kedua ({y}).")
+elif y > x:
+    print(f"Bilangan kedua ({y}) lebih besar daripada bilangan pertama ({x}).")
+else:
+    print(f"Kedua bilangan yaitu ({x}) dan ({y}) memiliki nilai yang sama.")
